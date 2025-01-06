@@ -11,34 +11,41 @@ header {
     width: 100%;
     position: fixed;
     z-index: 1;
+    z-index: 1,
 }
-nav > div {
+
+nav>div {
     padding: 1rem 0;
     backdrop-filter: blur(35px);
     background-color: #ffffff2b;
     border-radius: 50rem;
 }
+
 .radius-50 {
     border-radius: 1rem;
 }
-.collapse:not(.show) 
-.nav-link {
+
+.collapse:not(.show) .nav-link {
     font-size: 1.1rem;
     color: #FFFFFF !important;
     padding: 0 1.5rem !important;
 }
+
 .menu:focus {
     box-shadow: none;
 }
+
 .menu i {
     color: #fff;
     font-size: 1.8rem;
 }
+
 .logo h1 {
     font-size: 1.8rem !important;
     font-weight: bold;
     color: #FFFFFF;
 }
+
 .video {
     height: 100vh;
 }
